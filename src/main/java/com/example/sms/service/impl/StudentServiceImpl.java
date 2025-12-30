@@ -8,8 +8,10 @@ import com.example.sms.repository.StudentRepository;
 import com.example.sms.service.StudentService;
 import java.util.List;
 import java.util.stream.Collectors;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+@AllArgsConstructor
 @Service
 public class StudentServiceImpl implements StudentService {
 
